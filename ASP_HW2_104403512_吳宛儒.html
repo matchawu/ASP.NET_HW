@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>個人履歷表</title>
+</head>
+<body>
+<center>
+<form>
+	<table bgcolor="#ffeeb5">
+		<!-- 表格標題 -->
+		<caption style="font-weight: bold;color: #c1ea46;">
+			<font size="27">
+				個人履歷表
+			</font>
+		</caption>
+		
+
+		<tr><td>
+		<!-- 使用者姓名 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20">
+				姓名:
+			</font>
+		</label>
+		<tr><td>
+		<input type="text" name="usrname" size=20 maxlength="10" placeholder="ex.王大明">
+		
+		
+		<tr><td>
+		<!-- 身分證字號 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				身分證字號:
+			</font>
+		</label>
+		<tr><td>
+		<input type="Password" name="passwd" maxlength="8" placeholder="請輸入十位身分證號">
+
+		<tr><td>
+		<!-- 電子郵件 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				電子郵件:
+			</font>
+		</label>
+		<tr><td>
+			<span>@</span>
+			<input type="text" name="email" placeholder="user@example.com">
+		
+		<tr><td>
+		<!-- 生日 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				生日:
+			</font>
+		</label>
+		<tr><td>
+		<input type="date" value="2011-08-19" name="birth">
+		
+		<tr><td>
+		<!-- 性別 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				性別:
+			</font>
+		</label>
+		<tr><td>
+		<input type="radio" name="gender" value="male">
+			<font color="#595959" style="font-weight: bold; font-size: 20">
+				男
+			</font>
+		<input type="radio" name="gender" value="female">
+			<font color="#595959" style="font-weight: bold; font-size: 20"> 
+				女
+			</font>
+			
+		<tr><td>
+		<!-- 年齡 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				年齡:
+			</font>
+		</label>
+		<tr><td>
+		<input type="text" name="Age" size="3" placeholder="請輸入年齡">
+			<font color="#595959" style="font-weight: bold">
+				歲
+			</font>
+
+		<tr><td>
+		<!-- 興趣 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				興趣:
+			</font>
+		</label>
+		<tr><td>
+		<input type="checkbox" name="freetime" value="movie">
+			<font color="#595959" style="font-weight: bold">
+				看電影
+			</font><br>
+		<input type="checkbox" name="freetime" value="movie">
+			<font color="#595959" style="font-weight: bold">
+				看小說
+			</font><br>
+		<input type="checkbox" name="freetime" value="movie">
+			<font color="#595959" style="font-weight: bold">
+				看新聞
+			</font><br>
+
+
+		<tr><td>
+		<!-- 專長 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				專長:
+			</font>
+		</label>
+		<tr><td>
+		<select name="talent">
+			<option value="Java">
+				<font color="#595959" style="font-weight: bold">
+					Java
+				</font>
+			</option>
+			<option value="C">
+				<font color="#595959" style="font-weight: bold">
+					C
+				</font>
+			</option>
+			<option value="web">
+				<font color="#595959" style="font-weight: bold">
+					Web
+				</font>
+			</option>
+			<option value="SQL">
+				<font color="#595959" style="font-weight: bold">
+					SQL
+				</font>
+			</option>
+		</select>
+
+		<tr><td>
+		<!-- 擅長語言 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				語言:
+			</font>
+		</label>
+		<tr><td>
+		<input type="checkbox" name="chinese" value="chinese">
+			<font color="#595959" style="font-weight: bold;">中文</font> 
+		<input type="checkbox" name="taiwanese" value="taiwanese">
+			<font color="#595959" style="font-weight: bold;">台語</font>
+		<input type="checkbox" name="english" value="english">
+			<font color="#595959" style="font-weight: bold;">英文</font>
+		<input type="checkbox" name="german" value="german">
+			<font color="#595959" style="font-weight: bold;">德文</font>
+		<input type="checkbox" name="spanish" value="spanish">
+			<font color="#595959" style="font-weight: bold;">西班牙文</font>
+
+		<tr><td>
+		<!-- 自我介紹 -->
+		<label>
+			<font color="#26A7Fa" style="font-weight: bold; font-size: 20" >
+				自我介紹:
+			</font>
+		</label>
+		<tr><td>
+		<textarea name="intro" rows="5" cols="20">
+		</textarea>
+
+
+	</table>
+	
+		<!-- 按鈕 -->
+		<input type="submit" value="送出">
+		<input type="reset" value="清除">
+
+</form>
+</center>
+</body>
+</html>
